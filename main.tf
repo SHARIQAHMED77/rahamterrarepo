@@ -4,7 +4,7 @@ region = "us-east-1"
 
 resource "aws_instance" "three" {
   count         = 2
-  ami           = "ami-0341d95f75f311023"
+  ami           = "ami-0fa3fe0fa7920f68e"
   instance_type = "t2.micro"
 
   tags = {
